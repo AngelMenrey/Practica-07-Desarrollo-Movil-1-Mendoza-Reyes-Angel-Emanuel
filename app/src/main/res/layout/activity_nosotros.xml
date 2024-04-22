@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D1BB9E"
+    tools:context=".Nosotros">
+
+    <TextView
+        android:id="@+id/txtTitulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="100dp"
+        android:text="@string/nosostros"
+        android:textColor="#FAFAFA"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="296dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="50dp"
+        android:lineSpacingExtra="6sp"
+        android:text=" ¡Bienvenido a Fantasía Encantada! Sumérgete en un mundo mágico donde la imaginación cobra vida. Tanto adultos como niños encontrarán su personaje favorito y se transformarán en él, compartiendo una experiencia llena de fantasía y diversión. Desde los clásicos como piratas y brujas hasta los héroes más emblemáticos de películas y series de televisión, nuestra tienda de disfraces ofrece una amplia gama de opciones para satisfacer las necesidades de todos. Prepárate para vivir aventuras inolvidables en Fantasía Encantada."
+        android:textAlignment="center"
+        android:textColor="#F5F5F5"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtTitulo" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
